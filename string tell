@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+    char str[10];
+    printf("Are you a Programmer ? ");
+    scanf("%s", str);
+    if(!strcmp("yes", str))
+        printf("\nWhat a True Mind, You have!");
+    else
+        printf("\nSorry! You are telling a lie.");
+    getch();
+    return 0;
+}
